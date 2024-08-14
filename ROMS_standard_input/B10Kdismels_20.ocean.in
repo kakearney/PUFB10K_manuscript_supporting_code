@@ -1,0 +1,210 @@
+         TITLE = Bering Sea 10 km Grid
+      MyAppCPP = NEP5
+       VARNAME = /gscratch/bumblereem/bering10k/input/var/varinfo_bestnpzfeast_new.dat
+            Lm == 180
+            Mm == 256
+             N == 30
+          Nbed = 0
+           NAT = 2
+           NPT = 0
+           NCS = 0
+           NNS = 0
+        NtileI == 7
+        NtileJ == 20
+        NTIMES == 1709280
+            DT == 480
+       NDTFAST == 40
+         ERstr = 1
+         ERend = 1
+        Nouter = 1
+        Ninner = 1
+    Nintervals = 1
+           NEV = 2
+           NCV = 10
+         NRREC = -1
+     LcycleRST == T
+          NRST == 180
+          NSTA == 22
+          NFLT == 144
+         NINFO == 1
+       LDEFOUT == T
+          NHIS == 1260
+       NDEFHIS == 12600
+        NTSAVG == 1
+          NAVG == 180
+       NDEFAVG == 2520
+        NTSDIA == 1
+          NDIA == 10
+       NDEFDIA == 0
+     LcycleTLM == F
+          NTLM == 72
+       NDEFTLM == 0
+     LcycleADJ == F
+          NADJ == 72
+       NDEFADJ == 0
+       LrstGST = F
+    MaxIterGST = 500
+          NGST = 10
+      Ritz_tol = 1d-15
+          TNU2 == 25.0d0 25.0d0
+          TNU4 == 0.0d0 0.0d0
+         VISC2 == 25.0d0
+         VISC4 == 0.0d0
+       AKT_BAK == 1d-06 1d-06
+       AKV_BAK == 1d-05
+       AKK_BAK == 5d-06
+       AKP_BAK == 5d-06
+        TKENU2 == 0.0d0
+        TKENU4 == 0.0d0
+         GLS_P == -1.0d0
+         GLS_M == 0.5d0
+         GLS_N == -1.0d0
+      GLS_Kmin == 7.6d-06
+      GLS_Pmin == 1d-12
+      GLS_CMU0 == 0.5477d0
+        GLS_C1 == 0.555d0
+        GLS_C2 == 0.833d0
+       GLS_C3M == -0.6d0
+       GLS_C3P == 1.0d0
+      GLS_SIGK == 2.0d0
+      GLS_SIGP == 2.0d0
+          RDRG == 0.0003d0
+         RDRG2 == 0.003d0
+           Zob == 0.02d0
+           Zos == 0.02d0
+        BLK_ZQ == 10.0d0
+        BLK_ZT == 10.0d0
+        BLK_ZW == 10.0d0
+         DCRIT == 0.5d0
+         WTYPE == 5
+       LEVSFRC == 15
+       LEVBFRC == 1
+       THETA_S == 5.0d0
+       THETA_B == 0.4d0
+        TCLINE == 10.0d0
+          RHO0 = 1025.0d0
+       BVF_BAK = 0.0001d0
+        DSTART = 25567.0d0
+    TIDE_START = -693962.0d0
+      TIME_REF = 19000101.0d0
+         TNUDG == 360.0d0
+         ZNUDG == 360.0d0
+        M2NUDG == 360.0d0
+        M3NUDG == 360.0d0
+        OBCFAC == 120.0d0
+            R0 == 1027.0d0
+            T0 == 10.0d0
+            S0 == 35.0d0
+         TCOEF == 0.00017d0
+         SCOEF == 0.00076d0
+        GAMMA2 == 1.0d0
+         DstrS == 0.0d0
+         DendS == 0.0d0
+         KstrS == 1
+         KendS == 1
+Lstate(isFsur) == F
+Lstate(isUbar) == F
+Lstate(isVbar) == F
+Lstate(isUvel) == F
+Lstate(isVvel) == F
+Lstate(isTvar) == F F
+      SO_decay == 2.0d0
+SOstate(isUstr) == T
+SOstate(isVstr) == T
+SOstate(isTsur) == F F
+SO_sdev(isUstr) == 1.0d0
+SO_sdev(isVstr) == 1.0d0
+SO_sdev(isTsur) == 1.0d0 1.0d0
+  Hout(idUvel) == T
+  Hout(idVvel) == T
+  Hout(idWvel) == T
+  Hout(idOvel) == T
+  Hout(idUbar) == T
+  Hout(idVbar) == T
+  Hout(idFsur) == T
+  Hout(idTvar) == T T
+  Hout(idUair) == F
+  Hout(idVair) == F
+  Hout(idUsms) == F
+  Hout(idVsms) == F
+  Hout(idUbms) == F
+  Hout(idVbms) == F
+  Hout(idUbrs) == F
+  Hout(idVbrs) == F
+  Hout(idUbws) == F
+  Hout(idVbws) == F
+  Hout(idUbcs) == F
+  Hout(idVbcs) == F
+  Hout(idUbot) == F
+  Hout(idVbot) == F
+  Hout(idUbur) == F
+  Hout(idVbvr) == F
+  Hout(idTsur) == F
+  Hout(idLhea) == F
+  Hout(idShea) == F
+  Hout(idLrad) == F
+  Hout(idSrad) == F
+  Hout(idevap) == F
+  Hout(idrain) == F
+  Hout(idDano) == F
+  Hout(idVvis) == F
+  Hout(idTdif) == T
+  Hout(idSdif) == T
+  Hout(idHsbl) == F
+  Hout(idHbbl) == F
+  Hout(idMtke) == F
+  Hout(idMtls) == F
+  Hout(idUice) == T
+  Hout(idVice) == T
+  Hout(idAice) == T
+  Hout(idHice) == T
+  Hout(idTice) == T
+  Hout(idHsno) == T
+ Hout(idTimid) == T
+ Hout(idSfwat) == T
+ Hout(idTauiw) == T
+ Hout(idChuiw) == T
+Hout(idAgeice) == T
+ Hout(idSig11) == T
+ Hout(idSig12) == T
+ Hout(idSig22) == T
+  Hout(idS0mk) == T
+  Hout(idT0mk) == T
+   Hout(inert) == F
+  Hout(idBott) == F
+         NUSER = 0
+          USER = 0.0d0
+       GRDNAME == /gscratch/bumblereem/bering10k/input/grd/Bering_grid_withFeast.nc
+       ININAME == ./Out/B10Kdismels_19_rst.nc
+       IRPNAME == irp.nc
+       IADNAME == iad.nc
+       BRYNAME == /gscratch/bumblereem/bering10k/input/hindcast_cfs/1995/roms-cfs-bry-N30-1995.nc
+       ADSNAME == ads.nc
+       NFFILES == 11
+       FRCNAME == /gscratch/bumblereem/bering10k/input/generic/tides_OTBS.nc
+                  /gscratch/bumblereem/bering10k/input/generic/sss.clim.nc
+                  /gscratch/bumblereem/bering10k/input/hindcast_cfs/1995/roms-cfs-atmos-lwrad-1995.nc
+                  /gscratch/bumblereem/bering10k/input/hindcast_cfs/1995/roms-cfs-atmos-Pair-1995.nc
+                  /gscratch/bumblereem/bering10k/input/hindcast_cfs/1995/roms-cfs-atmos-Qair-1995.nc
+                  /gscratch/bumblereem/bering10k/input/hindcast_cfs/1995/roms-cfs-atmos-rain-1995.nc
+                  /gscratch/bumblereem/bering10k/input/hindcast_cfs/1995/roms-cfs-atmos-swrad-1995.nc
+                  /gscratch/bumblereem/bering10k/input/hindcast_cfs/1995/roms-cfs-atmos-Tair-1995.nc
+                  /gscratch/bumblereem/bering10k/input/hindcast_cfs/1995/roms-cfs-atmos-Uwind-1995.nc
+                  /gscratch/bumblereem/bering10k/input/hindcast_cfs/1995/roms-cfs-atmos-Vwind-1995.nc
+                  /gscratch/bumblereem/bering10k/input/river/runoff_kearney_1995.nc
+       RSTNAME == ./Out/B10Kdismels_20_rst.nc
+       HISNAME == ./Out/B10Kdismels_20_his.nc
+       AVGNAME == ./Out/B10Kdismels_20_avg.nc
+       STANAME == ./Out/B10Kdismels_20_sta.nc
+       FLTNAME == ./Out/B10Kdismels_flt.nc
+       GSTNAME == gst.nc
+       TLMNAME == tlm.nc
+       TLFNAME == tlf.nc
+       ADJNAME == adj.nc
+       APARNAM = assimilation.in
+       SPOSNAM = ./In/B10Kdismels.stations.in
+       FPOSNAM == floats.in
+       IPARNAM = ./In/B10Kdismels.ice.in
+       BPARNAM = bio.in
+       SPARNAM = sediment.in
+       USRNAME = myfile.dat
