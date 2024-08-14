@@ -1715,7 +1715,7 @@ Part.depth = -ftmp(Part.lon, Part.lat) + 5;
 Part.time = zeros(height(Part),1); % time after tracking initialization
 
 Part = Part(:, {'lon', 'lat', 'depth', 'time'});
-writetable(Part, 'particle_tracking/ROMSPath/init_nw_akpen.csv', 'WriteVariableNames', false);
+writetable(Part, 'particle_tracking/init_nw_akpen.csv', 'WriteVariableNames', false);
 
 npart = height(Part);
 npartak = length(akpen);
@@ -1726,7 +1726,7 @@ isak = isak(:);
 
 %% ... plot particle tracks
 
-pfile = 'particle_tracking/ROMSPath/particletracks_nw_akpen.nc';
+pfile = 'particle_tracking/particletracks_nw_akpen.nc';
 P = ncstruct(pfile);
 
 padforplt = @(x) cat(2, x, nan(npart,1))';
