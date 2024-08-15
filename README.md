@@ -16,13 +16,13 @@ The code relies on a number of non-native Matlab tools.  Many of these utilities
 
 This author's utilities:
 
-- labelaxes
-- mergeaxes
-- minmax
+- [labelaxes](https://www.mathworks.com/matlabcentral/fileexchange/171369)
+- [mergeaxes](https://www.mathworks.com/matlabcentral/fileexchange/171374)
+- [minmax](https://www.mathworks.com/matlabcentral/fileexchange/171379)
 - [plotboxpos](https://www.mathworks.com/matlabcentral/fileexchange/9615)
-- plotgrid
-- shapeprjread
-- skillstats
+- [plotgrid](https://www.mathworks.com/matlabcentral/fileexchange/171384)
+- [shapeprjread](https://www.mathworks.com/matlabcentral/fileexchange/171389)
+- [skillstats](https://www.mathworks.com/matlabcentral/fileexchange/171394)
 
 3rd-party utilities:
 
