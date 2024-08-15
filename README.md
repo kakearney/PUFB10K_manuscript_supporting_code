@@ -54,15 +54,24 @@ The standard input files for our ROMS Bering10K simulations are also included he
 
 ## Observational Datasets
 
-The following datasets were used in this paper that are not otherwise available in public archives.
+The following datasets were used in this paper that are not otherwise available in public archives (yet).
 
 ### PMEL Mooring Data (./PMEL_Mooring_Data/)
 
-Mooring data was acquired from PMEL EcoFOCI via Shaun Bell on 12/27/2023.  It includes the mooring data from the Bering Sea, Inner Front, and Kuskokwim deployments, all regularized to a uniform grid via decimation (no interpolation).  Files are netCDF format.
+Mooring data was acquired from PMEL EcoFOCI via Shaun Bell on 12/27/2023.  It includes the mooring data from the Bering Sea, Inner Front, and Kuskokwim deployments, all regularized to a uniform (hourly, ~1m depth-resolution) grid.  Files are netCDF format.  This data is preliminary and is undergoing final quality control in preparation for public archiving.  We provide this version for purposes of reproduction; please contact [TODO](someone's_email?) for an updated version if you wish to use this data for other research.
 
 ### Popup Float Data (./PUF_Data)
 
-The popup float data was acquired from PMEL EcoFOCI via Al Hermann on 01/25/2023.  It includes all popup float data from 2021-2022 Bering Sea deployments.
+The popup float data was acquired from PMEL EcoFOCI via Al Hermann on 01/25/2023.  It includes all popup float data from 2021-2022 Bering Sea deployments.  This data is preliminary and is undergoing final quality control in preparation for public archiving.  We provide this version for purposes of reproduction; please contact [TODO](someone's_email?) for an updated version if you wish to use this data for other research.
+
+### NOAA hydrography compendium
+
+Our analysis uses version 0.97 of a multi-decade compendium of NOAA Alaska hydrography:
+
+Pelland, N. A., Nielsen, J. M., Mordy, C. W., Stabeno, P. J., Bell, S. W., Cheng, W., Hermann, A. J., Eisner, L. B., and Gann, J. (2023). The composite Southeast Bering Sea shelf nutricline, within a multi-decade compendium of NOAA Alaska hydrography [Poster presentation]. 2023 Eastern Pacific Ocean Conference, 24-27 September, Fallen Leaf Lake, CA, United States. doi:10.6084/m9.figshare.24556690
+(TODO: update citation to Mordy/Pelland manuscript once it is available)
+
+Users wishing to reproduce our calculations can acquire this data from [TODO](final_archive_location) and should adjust the |pellandfol| variable in the |popup_analysis_final.m| script to point to the proper download location.
 
 ## Intermediate datasets
 
