@@ -71,7 +71,7 @@ Our analysis uses version 0.97 of a multi-decade compendium of NOAA Alaska hydro
 Pelland, N. A., Nielsen, J. M., Mordy, C. W., Stabeno, P. J., Bell, S. W., Cheng, W., Hermann, A. J., Eisner, L. B., and Gann, J. (2023). The composite Southeast Bering Sea shelf nutricline, within a multi-decade compendium of NOAA Alaska hydrography [Poster presentation]. 2023 Eastern Pacific Ocean Conference, 24-27 September, Fallen Leaf Lake, CA, United States. doi:10.6084/m9.figshare.24556690
 (TODO: update citation to Mordy/Pelland manuscript once it is available)
 
-Users wishing to reproduce our calculations can acquire this data from [TODO](final_archive_location) and should adjust the |pellandfol| variable in the |popup_analysis_final.m| script to point to the proper download location.
+Users wishing to reproduce our calculations can acquire this data from [TODO](final_archive_location) and should adjust the `pellandfol` variable in the `popup_analysis_final.m` script to point to the proper download location.
 
 ## Intermediate datasets
 
