@@ -1098,7 +1098,7 @@ end
 % TODO: add legends
 
 legobj = [h.ts.b10k(1,5) h.ts.b10k(1,1) h.ts.trawl(1), h.ts.ctd1(1) h.ts.moor(1) h.ts.puf(1)];
-legstr = {'Bering10K (center grid cell)' 'Bering10K (other grid cells)' 'Grounfish trawl' 'CTD' 'Mooring' 'PUF'};
+legstr = {'Bering10K (center grid cell)' 'Bering10K (other grid cells)' 'Groundfish trawl' 'CTD' 'Mooring' 'PUF'};
 
 [~,isrt] = sortrows(Indices, 'letters');
 for ii = 1:height(Indices)
