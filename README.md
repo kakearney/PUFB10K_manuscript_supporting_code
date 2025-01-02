@@ -68,10 +68,9 @@ The popup float data was acquired from PMEL EcoFOCI via Al Hermann on 01/25/2023
 
 Our analysis uses version 0.97 of a multi-decade compendium of NOAA Alaska hydrography:
 
-Pelland, N. A., Nielsen, J. M., Mordy, C. W., Stabeno, P. J., Bell, S. W., Cheng, W., Hermann, A. J., Eisner, L. B., and Gann, J. (2023). The composite Southeast Bering Sea shelf nutricline, within a multi-decade compendium of NOAA Alaska hydrography [Poster presentation]. 2023 Eastern Pacific Ocean Conference, 24-27 September, Fallen Leaf Lake, CA, United States. doi:10.6084/m9.figshare.24556690
-(TODO: update citation to Mordy/Pelland manuscript once it is available)
+Pelland, N. A., Nielsen, J. M., Mordy, C. W., Stabeno, P. J., Bell, S. W., Cheng, W., Hermann, A. J., Eisner, L. B., and Gann, J. (2023). The composite Southeast Bering Sea shelf nutricline, within a multi-decade compendium of NOAA Alaska hydrography [Poster presentation]. 2023 Eastern Pacific Ocean Conference, 24-27 September, Fallen Leaf Lake, CA, United States. [DOI: 10.6084/m9.figshare.24556690](https://doi.org/10.6084/m9.figshare.24556690)
 
-Users wishing to reproduce our calculations can acquire this data from [TODO](final_archive_location) and should adjust the `pellandfol` variable in the `popup_analysis_final.m` script to point to the proper download location.
+Final QC of this data product is ongoing.  A link to version 1.0 will be added to this page as soon as it is available.  In the meantime, those wishing to use the data to reproduce the figures and calculations in this study can contact the authors for a repliminary copy. The `pellandfol` variable in the `popup_analysis_final.m` script to will need to be adjusted to point to the proper download location once a user has downloaded their own copy.
 
 ## Intermediate datasets
 
